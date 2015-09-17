@@ -1,0 +1,13 @@
+<resources>
+    <declare-styleable name="DateViewPage">
+        <attr name="leftStringColor" format="color" />
+        <attr name="rightStringColor" format="color" />
+        <attr name="currentStringColor" format="color" />
+        <attr name="isDisplayWeek" format="boolean" />
+        <attr name="LeftRightStringSize" format="dimension" />
+        <attr name="CurrentStringSize" format="dimension" />
+        <attr name="bgDrawable" format="color|reference" />
+        <attr name="leftDrawable" format="color|reference" />
+        <attr name="rightDrawable" format="color|reference" />
+    </declare-styleable>
+</resources>

@@ -1,0 +1,34 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context=".MainActivity">
+
+    <com.example.zdzyc.dateviewpage.DateViewPage
+        android:id="@+id/dateviewpage"
+        app:CurrentStringSize="18sp"
+        app:LeftRightStringSize="12sp"
+        app:currentStringColor="#33b5e5"
+        app:leftStringColor="#33b5e5"
+        app:rightStringColor="#33b5e5"
+        app:isDisplayWeek = "false"
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:background="#ccc"
+        app:leftDrawable="@mipmap/left"
+        app:rightDrawable="@mipmap/right" />
+
+    <TextView
+        android:id="@+id/currentdate"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:text="今天是"
+        />
+
+</RelativeLayout>
